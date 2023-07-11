@@ -7,7 +7,6 @@
                 <i class = "far fa-edit"></i>
                 <i class = "fas fa-sync"></i>
                 <i class = "fas fa-plus"></i>
-
             </div>
         </nav>
 
@@ -26,8 +25,13 @@ export default {
 .add-city{
     background: #313640;
 }
-
 header{
+    z-index: 99;
+    position: fixed;
+    max-width: 1024px;
+    width: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) ;
+
     nav {
         display: flex;
         color: #fff;

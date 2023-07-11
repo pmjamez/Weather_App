@@ -10,7 +10,8 @@
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
-    "vue": "^3.2.38"
+    "vue": "^3.2.38",
+    "vue-resource": "^1.5.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
